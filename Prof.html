@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="navbar">
@@ -24,19 +25,19 @@
     <div class="cont">
         <div class="subcont1">
             <div class="header1"> <img class="Jane" src="C:\Users\Chris\Desktop\Coding Dojo\WebFund\ProfPage\jane-m.jpg" alt="profile image"></div>
-            <h1>Jane Doe</h1>
+            <h1 id="jane">Jane Doe</h1>
             <h3><img class="map" src="C:\Users\Chris\Desktop\Coding Dojo\WebFund\ProfPage\map-marker.png" alt="map-marker">Seattle</h3>
             <h3>Developer | Engineer | Problem Solver</h3>
             <h3>Master of shadows and the Internet!</h3>
-            <h3><img class="cog" src="C:\Users\Chris\Desktop\Coding Dojo\WebFund\ProfPage\gear.png" alt="Cog Wheel"><a href="#">edit profile</a></h3>
+            <h3><img class="cog" src="C:\Users\Chris\Desktop\Coding Dojo\WebFund\ProfPage\gear.png" alt="Cog Wheel"><a href="#" onclick="changename()">edit profile</a></h3>
         </div>
         <div class="subcont2">
             <div class="header2">
                 <div class="two">2</div>
                 <div>Connection Requests</div>
             </div>
-            <h4><img src="C:\Users\Chris\Desktop\Coding Dojo\WebFund\ProfPage\todd-s.jpg" alt="Todd">Todd E<img class="check" src="accept-circle.png" alt=""><img src="close-circle.png" alt=""></h3>
-            <h4><img src="C:\Users\Chris\Desktop\Coding Dojo\WebFund\ProfPage\phil-s.jpg" alt="Phil">Phil K<img class="check" src="accept-circle.png" alt=""><img src="close-circle.png" alt=""></h3>
+            <h4 id="cookies"><img src="C:\Users\Chris\Desktop\Coding Dojo\WebFund\ProfPage\todd-s.jpg"  alt="Todd">Todd E<img onclick="disappear()" class="check" src="accept-circle.png" alt=""><img onclick="disappear()" src="close-circle.png" alt=""></h4>
+            <h4 id="cookies2"><img src="C:\Users\Chris\Desktop\Coding Dojo\WebFund\ProfPage\phil-s.jpg" alt="Phil">Phil K<img onclick="disappear2()" class="check" src="accept-circle.png" alt=""><img onclick="disappear2()" src="close-circle.png" alt=""></h4>
         </div>
     </div>
     <div class="cont2">
